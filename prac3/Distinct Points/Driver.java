@@ -5,9 +5,9 @@ class Driver {
         Point[] points = {
             new Point(1, 2),
             new Point(3, 4),
-            new Point(1, 2),   // repeated
+            new Point(1, 2),  
             new Point(5, 6),
-            new Point(3, 4)    // repeated
+            new Point(3, 4)   
         };
 
         int distinct = 0;
