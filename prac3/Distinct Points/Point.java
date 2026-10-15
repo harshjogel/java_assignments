@@ -4,7 +4,6 @@ class Point {
     private int x;
     private int y;
 
-    // Constructor
     Point(int x, int y) {
         this.x = x;
         this.y = y;
@@ -32,7 +31,6 @@ class Point {
         return x == p.x && y == p.y;
     }
 
-    // Override hashCode()
     @Override
     public int hashCode() {
         return Objects.hash(x, y);
